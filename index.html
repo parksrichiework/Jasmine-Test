@@ -41,7 +41,7 @@
                
                 <!-- right column -->
                 
-                 <!--  <figure> -->
+                  <!-- <figure> -->
                     <!-- <img class="intro-img" src="img/blinking-icon.gif" alt="Jasmine's Icon" title="Jasmine's icon"/> -->
                     <iframe class="video" width="100%" src="https://www.youtube.com/embed/QMDr95KzM54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -51,6 +51,8 @@
               </div>
             </div>
           </header>
+
+          
                         
                           
                            
@@ -60,117 +62,7 @@
   <!-- JAVASCRIPT -->
     <script type="text/javascript">
     
-    // // onclick: SHOW SKILLS VIA DISPENSER
-      document.getElementById("dispenser-click").onclick = function() {
-        dispense()
-          };
-
-      function dispense(){
-        var turn = document.getElementById("right-side");
-        var Image_Id = document.getElementById("dispenser-click")   
-        
-        if (Image_Id.src.match(document.getElementById("dispenser-click"))){
-          turn.className= "right";
-          Image_Id.src = "img/skills-dispenser-open.png";
-
-      };
-
-    // onclick: EXPLAIN SKILLS
-        document.getElementById("skills1").onclick = function() {skills1Reveal()
-          }};
-
-              function skills1Reveal() {
-
-               var Image_Id = document.getElementById('skills1');
-               var explain1 = document.getElementById('explain1');
-              
-               if (Image_Id.src.match("img/graphic-design-closed.png")) {
-                   Image_Id.src = "img/graphic-design-open.png";
-                }
-               else {
-                  Image_Id.src = "img/graphic-design-closed.png";
-                }
-                if (Image_Id.src.match("img/graphic-design-open.png")) {
-                   explain1.innerHTML = "<p>Adobe(CC+CS6), Posters, Album Art, Style Guide, Logos, Iconography, Typography</p>"
-
-                }
-                if (Image_Id.src.match("img/graphic-design-closed.png")) {
-                   explain1.innerHTML = "<p> </p>"              
-                }           
-                };
-
-
-              document.getElementById("skills2").onclick = function() {
-            skills2Reveal()
-          };
-                function skills2Reveal() {
-
-               var Image_Id = document.getElementById('skills2');
-               var explain2 = document.getElementById('explain2');
-              
-               if (Image_Id.src.match("img/design-thinking-closed.png")) {
-                   Image_Id.src = "img/design-thinking-open.png";
-                }
-               else {
-                  Image_Id.src = "img/design-thinking-closed.png";
-                }
-                if (Image_Id.src.match("img/design-thinking-open.png")) {
-                   explain2.innerHTML = "<p>Brainstorming, Sketching, Wireframes, Mindmapping, Design Research, Branding</p>"
-
-                }
-              if (Image_Id.src.match("img/design-thinking-closed.png")) {
-                   explain2.innerHTML = "<p> </p>"              
-                }           
-                };
-
-              document.getElementById("skills3").onclick = function() {
-          skills3Reveal()
-          };
-                function skills3Reveal() {
-
-               var Image_Id = document.getElementById('skills3');
-               var explain3 = document.getElementById('explain3')
-              
-               if (Image_Id.src.match("img/web-design-closed.png")) {
-                   Image_Id.src = "img/web-design-open.png";
-                }
-               else {
-                  Image_Id.src = "img/web-design-closed.png";
-                }
-                if (Image_Id.src.match("img/web-design-open.png")) {
-                   explain3.innerHTML = "<p>HTML, CSS, Javascript, Sublime Text, Atom, Github, Codepen</p>"
-
-                }
-              if (Image_Id.src.match("img/web-design-closed.png")) {
-                   explain3.innerHTML = "<p> </p>"              
-                }           
-                };
-
-              document.getElementById("skills4").onclick = function() {
-          skills4Reveal()
-          };
-
-              function skills4Reveal() {
-
-               var Image_Id = document.getElementById('skills4');
-               var explain4 = document.getElementById('explain4');
-                            
-
-             if (Image_Id.src.match("img/illustration-closed.png")) {
-                   Image_Id.src = "img/illustration-open.png"              
-                }
-               else {
-                  Image_Id.src = "img/illustration-closed.png";
-                }
-
-              if (Image_Id.src.match("img/illustration-open.png")) {
-                   explain4.innerHTML = "<p>Sketch, Adobe(Ai+Ps)</p>"
-
-                }
-              if (Image_Id.src.match("img/illustration-closed.png")) {
-                   explain4.innerHTML = "<p> </p>"              
-                }          
-                };  
+    
 
     //modal for graphics
             // Get the modal
