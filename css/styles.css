@@ -31,6 +31,7 @@ h1, h2, .skillslist {
 .services-about {
   font-family: 'Noto Sans Display', sans-serif;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .skillslist-intro {
@@ -70,7 +71,7 @@ img {
 
 
 nav {
-  background-color: #999999;
+  background-color: ;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -78,7 +79,7 @@ nav {
 
 li.empty {
   width: 50px;
-  border-top: 0.5px solid #000000;
+  border-top: 0.5px solid #ffffff;
   top: -5px;
   position: relative;
 }
@@ -86,7 +87,7 @@ li.empty {
 
 nav li a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   transition: 0.3 ease-in-out;
 }
 
@@ -112,17 +113,20 @@ nav ul {
 }
 
 header {
-  top: 70px;
+  top: 80px;
   position: relative;
   margin-bottom: 220px;
   /*background-image: url('../img/header-background.jpg');*/
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: -145px;
+  
 }
 
 
-
+.video{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 1080px;
+}
 
 
 
@@ -398,7 +402,7 @@ footer h2 {
 
 a.email-me {
   text-decoration: underline;
-  color: #000000;
+  color: #ffffff;
   transition: 0.3 ease-in-out;
 }
 
