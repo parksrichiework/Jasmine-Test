@@ -124,8 +124,8 @@ header {
 .video{
   position: relative;
   text-align: center;
-  width: 100%;
   height: 1080px;
+  
 }
 
 
@@ -168,6 +168,11 @@ p {
 .button:hover {
   background: #ffffff;
   color: white;
+}
+
+
+figure{
+  position: relative;
 }
 
 figcaption {
