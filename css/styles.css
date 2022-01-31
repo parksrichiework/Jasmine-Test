@@ -181,9 +181,31 @@ figcaption {
   color: #ffffff;
 }
 
+div section{
+ 
+  margin-top: 0px;
+}
+
+.curation-section{
+  background-color: #382B50;
+  color: whitesmoke;
+  padding: 25%;
+}
+
+.tarot-section{
+  background-color: whitesmoke;
+  padding: 50%;
+  height: 640px;
+}
+
+.education-section{
+  background-color: none;
+  padding: 50%;
+}
+
 .project {
   margin: 70px 0px;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 
