@@ -181,9 +181,19 @@ figcaption {
   color: #ffffff;
 }
 
-div section{
+div div{
  
   margin-top: 0px;
+}
+
+.ase{
+  /*position: absolute;*/
+  position: fixed;
+  margin: 0px;
+  border-radius: 50%;
+  z-index: 11;  
+  width: 150px;
+
 }
 
 .curation-section{
