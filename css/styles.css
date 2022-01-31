@@ -116,8 +116,12 @@ header {
   top: 80px;
   position: relative;
   margin-bottom: 220px;
-  /*background-image: url('../img/header-background.jpg');*/
-  
+  height: 540px;
+  background-image: url('../img/about-me.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0px;
+  padding: 50%;
 }
 
 
