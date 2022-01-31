@@ -204,13 +204,13 @@ div section a{
 }
 
 .ase{
-  /*position: absolute;*/
+  /*/*position: absolute;*/
   position: fixed;
   bottom: 25%;
   right: 0px;  
   border-radius: 50%;
   z-index: 3;  
-  
+  */
 
 }
 
