@@ -204,13 +204,13 @@ div section a{
 }
 
 .ase{
-  /*/*position: absolute;*/
+  /*position: absolute;*/
   position: fixed;
   bottom: 25%;
   right: 0px;  
   border-radius: 50%;
   z-index: 3;  
-  */
+  
 
 }
 
@@ -235,8 +235,8 @@ div section a{
 
 .about-me-section{
   background-color: #382B50;
-  padding: 50%;
-  color: #fff;
+  padding: 150px;
+  color: white;
 }
 
 .project {
