@@ -190,6 +190,11 @@ div div{
   margin-top: 0px;
 }
 
+div section a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .ase{
   /*position: absolute;*/
   position: fixed;
@@ -207,14 +212,20 @@ div div{
 }
 
 .tarot-section{
-  background-color: whitesmoke;
-  padding: 50%;
-  height: 640px;
+  background-color: #999999;
+  padding: 25%;
+  /*height: 540px;*/
 }
 
 .education-section{
   background-color: none;
   padding: 50%;
+}
+
+.about-me-section{
+  background-color: #382B50;
+  padding: 50%;
+  color: #fff;
 }
 
 .project {
