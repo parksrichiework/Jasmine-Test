@@ -230,7 +230,12 @@ div section a{
 
 .education-section{
   background-color: none;
-  padding: 50%;
+  padding: 25%;
+}
+
+.learn-box{
+  background-color: green;
+  padding: 150px;
 }
 
 .about-me-section{
