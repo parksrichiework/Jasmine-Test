@@ -45,7 +45,7 @@
           <!-- header starts -->
           <header id="home">
             
-            <!-- <h3>WELCOME</h3> -->
+            <h3 id="greeting" class="greet-me">WELCOME</h3>
 
             <!-- <div>I'm a multidisciplinary creator and visionary. welcome to my village of technology</div> -->
           </header>
@@ -99,7 +99,7 @@
             <img src="img/about-me.jpg">
             <br>
             <h2>About me</h2>
-            <p>This is a section about me. I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.</p>
+            <p id="about-paragraph">This is a section about me. I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.I do stuff that's cool and I organize community.</p>
           </section>
           
                            
@@ -109,7 +109,15 @@
   <!-- JAVASCRIPT -->
     <script type="text/javascript">
     
-    
+      window.onscroll = function() {myFunction()};
+
+      function myFunction() {
+        if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+          document.getElementById("greeting").className = "test";
+        } else {
+          document.getElementById("greeting").className = "";
+        }
+      }
 
     //modal for graphics
             // Get the modal

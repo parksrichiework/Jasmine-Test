@@ -480,3 +480,31 @@ a.email-me:hover {
   color: #ffffff;
   background-color: #000000;
 }
+
+
+.test {
+  display: block;
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+
+.greet-me{
+  display: none;
+  
+}
+
